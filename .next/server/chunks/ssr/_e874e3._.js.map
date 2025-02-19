@@ -1,9 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/mailelucks/playground_repo/frontend-boilerplate/src/app/layout.tsx"],"sourcesContent":["import React from 'react';\nimport type { Metadata } from 'next';\nimport './globals.css';\n\nexport const metadata: Metadata = {\n  title: '',\n  description: '',\n};\n\nexport default function RootLayout({\n  children,\n}: Readonly<{\n  children: React.ReactNode;\n}>) {\n  return (\n    <html lang=\"en\">\n      <body>\n        <header>\n          <nav></nav>\n        </header>\n        <main className=\"flex min-h-screen w-full flex-col items-center justify-center\">\n          {children}\n        </main>\n        <footer></footer>\n      </body>\n    </html>\n  );\n}\n"],"names":[],"mappings":";;;;;;;AAIO,MAAM,WAAqB;IAChC,OAAO;IACP,aAAa;AACf;AAEe,SAAS,WAAW,EACjC,QAAQ,EAGR;IACA,qBACE,8OAAC;QAAK,MAAK;kBACT,cAAA,8OAAC;;8BACC,8OAAC;8BACC,cAAA,8OAAC;;;;;;;;;;8BAEH,8OAAC;oBAAK,WAAU;8BACb;;;;;;8BAEH,8OAAC;;;;;;;;;;;;;;;;AAIT"}},
-    {"offset": {"line": 59, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
-    {"offset": {"line": 70, "column": 0}, "map": {"version":3,"sources":["file:///Users/mailelucks/playground_repo/frontend-boilerplate/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = require('../../module.compiled').vendored[\n  'react-rsc'\n].ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":";AAAAA,OAAOC,OAAO,GAAGC,QAAQ,0HAAyBC,QAAQ,CACxD,YACD,CAACC,kBAAkB","ignoreList":[0]}},
-    {"offset": {"line": 72, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}
