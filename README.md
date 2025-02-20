@@ -1,4 +1,4 @@
-# mac n cheese
+# Frontend Boilerplate 2025 w/ NextJS
 
 ## Getting Started
 
